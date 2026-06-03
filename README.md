@@ -11,7 +11,7 @@ League of Legends Solo Carry Analysis is a data science project conducted at UCS
 ### Dataset
 
 This project uses the [Oracle's Elixir](https://oracleselixir.com/) League of Legends
-esports match dataset, spanning three seasons (2024 – 2026). Each row describes one
+esports match dataset, spanning three seasons (2024 – 2026). The reason for only choosing three seasons is to limit probability of the results being due to a previous "meta" of characters which could affect the results. Each row describes one
 player's performance in a single professional match. There are also "team" summary rows
 (one per team per game) that we exclude from player-level analysis.
 
