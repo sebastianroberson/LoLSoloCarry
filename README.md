@@ -355,6 +355,8 @@ recompute |F1(carry) − F1(utility)| for each permutation.
   height="600"
   frameborder="0"
 ></iframe>
+
+---
 ### Conclusion
 
 We reject the H₀ - the model is measurably less accurate at identifying solo carries among utility players than damage-dealing roles. This isn't suprising because carries from bot and mid have high damage share and earned gold share which makes them easier to separate from the non-carries. Utility players who occasionally top the damage charts are rarer and harder to distinguish from the noise, leading to lower F1 for that group. 
