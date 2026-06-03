@@ -1,12 +1,12 @@
 # League of Legends Solo Carry Analysis
 
-**Name(s)**: Sebastian Roberson
-
-**Website Link**: <https://sebastianroberson.github.io/LoLSoloCarry/>
+**Author**: Sebastian Roberson
 
 ---
 
-## Step 1: Introduction
+League of Legends Solo Carry Analysis is a data science project conducted at UCSD. The project includes the stages starting from exploratory data analysis to hypothesis testing, baseline models, and fairness analysis. The focus of this project is to investigate the roles that are most likely to solo carry in League of Legends professional matches and its impact on gold and kill share participation.
+
+## Introduction
 
 ### Dataset
 
@@ -52,7 +52,7 @@ anecdote.
 
 ---
 
-## Step 2: Data Cleaning and Exploratory Data Analysis
+## Data Cleaning and Exploratory Data Analysis
 
 ### Data Cleaning
 
@@ -128,7 +128,7 @@ and kill participation, while support has the highest vision score per minute (v
 
 ---
 
-## Step 3: Assessment of Missingness
+## Assessment of Missingness
 
 ### NMAR Analysis
 
@@ -182,7 +182,7 @@ We test two columns from `players_all` (including partial rows):
 
 ---
 
-## Step 4: Hypothesis Testing
+## Hypothesis Testing
 
 ### Question
 
@@ -220,7 +220,7 @@ and has no assumptions about the underlying distribution.
 
 ---
 
-## Step 5: Framing a Prediction Problem
+## Framing a Prediction Problem
 
 ### Prediction Problem
 
@@ -253,7 +253,7 @@ but we want to identify who carried.
 
 ---
 
-## Step 6: Baseline Model
+## Baseline Model
 
 ### Model Description
 
@@ -283,7 +283,7 @@ room for improvement.
 
 ---
 
-## Step 7: Final Model
+## Final Model
 
 ### Engineered Features (beyond one-hot encoding)
 
@@ -320,7 +320,7 @@ it well-suited to this problem.
 
 ---
 
-## Step 8: Fairness Analysis
+## Fairness Analysis
 
 ### Groups
 
